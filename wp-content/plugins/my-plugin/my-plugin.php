@@ -36,7 +36,7 @@ function custom_page_content() {
 
     ?>
     <div class="wrap">
-        <h2>Custom Page</h2>
+        <h2>Plugin page</h2>
         <form method="post" action="">
             <label for="custom_data">Enter Custom Data:</label>
             <input type="text" id="custom_data" name="custom_data" value="<?php echo esc_attr(get_option('custom_data')); ?>" /></br>
